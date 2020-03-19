@@ -11,10 +11,8 @@ include 'header.php';
 <html>
 <head>
   <meta itemprop="name" content="登录后台"/>
-  <meta itemprop="image" content="http://www.youngxj.cn/logopic.png" />
   <meta name="description" itemprop="description" content="账号：admin \r\n 密码：password" />
   <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Youngxj" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,7 +66,7 @@ include 'header.php';
       position: absolute;/* 固定模糊层位置 */
       left: -100%;/* 回调模糊层位置 */
       top: -100%;/* 回调模糊层位置 */
-      background:url(1.jpg) no-repeat center center fixed;/* 与上面的bg中的background设置一样 */
+      background:url('./images/admin.jpg') no-repeat center center fixed;/* 与上面的bg中的background设置一样 */
       filter: blur(20px);/* 值越大越模糊 */
       z-index: -2;/* 模糊层在最下面 */
     }
