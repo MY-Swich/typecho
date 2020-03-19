@@ -19,7 +19,14 @@
 
             <!-- Comment avatar -->
             <div id="comment__avatar">
-                <?php $comments->gravatar(52, "identicon"); ?>
+                <span itemprop="image"><?php $number=$comments->mail;
+                    if(preg_match('|^[1-9]\d{4,11}@qq\.com$|i',$number)){
+                        echo '<img src="https://q2.qlogo.cn/headimg_dl? bs='.$number.'&dst_uin='.$number.'&dst_uin='.$number.'&;dst_uin='.$number.'&spec=100&url_enc=0&referer=bu_interface&term_type=PC" width="46px" height="46px" style="border-radius: 50%;float: left;margin-top: 0px;margin-right: 10px;margin-bottom:-2px">';
+                    }else{
+                        echo '<img src="https://bing.ioliu.cn/v1/rand?w=46&h=46" width="46px" height="46px" style="border-radius: 50%;float: left;margin-top: 0px;margin-right: 10px;margin-bottom:-2px">';
+                    }
+                    ?>
+                </span>
             </div>
 
             <!-- Comment author -->

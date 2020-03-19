@@ -30,12 +30,12 @@ $stat = Typecho_Widget::widget('Widget_Stat');
           <li class="layui-nav-item">
             <a href="javascript:;">admin</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-              <dd><a onclick="x_admin_show('个人信息','http://localhost/typecho/admin/profile.php')">个人信息</a></dd>
+              <dd><a onclick="x_admin_show('个人信息','http://localhost/typecho_blog/admin/profile.php')">个人信息</a></dd>
               
               <dd><a href="<?php $options->logoutUrl(); ?>"><?php _e('登出'); ?></a></dd>
             </dl>
           </li>
-          <li class="layui-nav-item to-index"><a href="http://localhost/typecho/">网站</a></li>
+          <li class="layui-nav-item to-index"><a href="http://localhost/typecho_blog/">网站</a></li>
         </ul>
         
     </div>
@@ -53,28 +53,28 @@ $stat = Typecho_Widget::widget('Widget_Stat');
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="http://localhost/typecho/admin/profile.php">
+                        <a _href="http://localhost/typecho_blog/admin/profile.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>个人设置</cite>
                             
                         </a>
                     </li >
                     <li>
-                        <a _href="http://localhost/typecho/admin/plugins.php">
+                        <a _href="http://localhost/typecho_blog/admin/plugins.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>插件</cite>
                             
                         </a>
                     </li>
 					<li>
-                        <a _href="http://localhost/typecho/admin/themes.php">
+                        <a _href="http://localhost/typecho_blog/admin/themes.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>外观</cite>
                             
                         </a>
                     </li>
 					<li>
-                        <a _href="http://localhost/typecho/admin/backup.php">
+                        <a _href="http://localhost/typecho_blog/admin/backup.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>备份</cite>
                             
@@ -93,14 +93,14 @@ $stat = Typecho_Widget::widget('Widget_Stat');
                 </a>
                 <ul class="sub-menu">
                     <li>
-                                <a _href="http://localhost/typecho/admin/write-post.php">
+                                <a _href="http://localhost/typecho_blog/admin/write-post.php">
                                     <i class="iconfont">&#xe6a7;</i>
                                     <cite>撰写新文章</cite>
                                     
                                 </a>
                             </li>
 							<li>
-                                <a _href="http://localhost/typecho/admin/write-page.php">
+                                <a _href="http://localhost/typecho_blog/admin/write-page.php">
                                     <i class="iconfont">&#xe6a7;</i>
                                     <cite>创建新页面</cite>
                                     
@@ -116,43 +116,43 @@ $stat = Typecho_Widget::widget('Widget_Stat');
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="http://localhost/typecho/admin/manage-posts.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-posts.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>管理文章</cite>
                         </a>
                     </li >
                     <li>
-                        <a _href="http://localhost/typecho/admin/manage-pages.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-pages.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>独立页面</cite>
                         </a>
                     </li >
                     <li>
-                        <a _href="http://localhost/typecho/admin/manage-comments.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-comments.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>管理评论</cite>
                         </a>
                     </li >
                     <li>
-                        <a _href="http://localhost/typecho/admin/manage-categories.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-categories.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>管理分类</cite>
                         </a>
                     </li >
 					<li>
-                        <a _href="http://localhost/typecho/admin/manage-tags.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-tags.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>管理标签</cite>
                         </a>
                     </li >
 					<li>
-                        <a _href="http://localhost/typecho/admin/manage-medias.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-medias.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>管理文件</cite>
                         </a>
                     </li >
 					<li>
-                        <a _href="http://localhost/typecho/admin/manage-users.php">
+                        <a _href="http://localhost/typecho_blog/admin/manage-users.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>管理用户</cite>
                         </a>
@@ -167,25 +167,25 @@ $stat = Typecho_Widget::widget('Widget_Stat');
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="http://localhost/typecho/admin/options-general.php">
+                        <a _href="http://localhost/typecho_blog/admin/options-general.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>基本设置</cite>
                         </a>
                     </li >
                     <li>
-                        <a _href="http://localhost/typecho/admin/options-discussion.php">
+                        <a _href="http://localhost/typecho_blog/admin/options-discussion.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>评论</cite>
                         </a>
                     </li>
                     <li>
-                        <a _href="http://localhost/typecho/admin/options-reading.php">
+                        <a _href="http://localhost/typecho_blog/admin/options-reading.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>阅读</cite>
                         </a>
                     </li>
                     <li>
-                        <a _href="http://localhost/typecho/admin/options-permalink.php">
+                        <a _href="http://localhost/typecho_blog/admin/options-permalink.php">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>永久连接</cite>
                         </a>
